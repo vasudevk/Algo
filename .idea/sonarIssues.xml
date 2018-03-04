@@ -1753,6 +1753,26 @@
             <set />
           </value>
         </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev/assisted-lookup/src/main/java/com/tmo/eus/assistedlookup/business/SpecialInstructionApplicationServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev/assisted-lookup/src/main/java/com/tmo/eus/assistedlookup/business/orchestration/AssistedLookupServiceFacadeImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev/assisted-lookup/src/main/java/com/tmo/eus/assistedlookup/integration/AssistedLookupServiceBrokerImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev/assisted-lookup/src/main/java/com/tmo/eus/assistedlookup/presentation/AssistedLookupController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev/assisted-purchase-path-return/src/main/java/com/tmo/eus/assistedpurchasepathreturn/business/AssistedPurchasePathReturnApplicationServiceImpl.java">
           <value>
             <set />
@@ -2023,6 +2043,11 @@
             <set />
           </value>
         </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev/customer-billing-v3/src/main/java/com/tmo/eus/customerbilling/business/orchestration/CustomerBillingServiceFacadeImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev/customer-billing/pom.xml">
           <value>
             <set />
@@ -2189,6 +2214,11 @@
           </value>
         </entry>
         <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev/customer-billing/target/classes/com/tmo/eus/customerbilling/model/response/BillSummaryResponse.class">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev/customer-v3/src/main/java/com/tmo/eus/customer/model/request/ChubRequest.java">
           <value>
             <set />
           </value>
@@ -2588,6 +2618,11 @@
             <set />
           </value>
         </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev/wsil-tier/wsil-customersummary-v3/src/main/java/com/tmo/eus/wsil/customersummary/integration/CustomerSummaryServiceBrokerImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev/wsil-tier/wsil-device/src/main/java/com/tmo/eus/wsil/device/integration/ValidateSimServiceBrokerImpl.java">
           <value>
             <set />
@@ -2699,6 +2734,26 @@
           </value>
         </entry>
         <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/assisted-customer/src/main/java/com/tmo/eus/assistedcustomer/presentation/AssistedCustomerController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/assisted-lookup/src/main/java/com/tmo/eus/assistedlookup/business/SpecialInstructionApplicationServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/assisted-lookup/src/main/java/com/tmo/eus/assistedlookup/business/bo/AssistedLookupBOImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/assisted-lookup/src/main/java/com/tmo/eus/assistedlookup/business/orchestration/AssistedLookupServiceFacadeImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/assisted-lookup/src/main/java/com/tmo/eus/assistedlookup/constants/MappingURI.java">
           <value>
             <set />
           </value>
@@ -2988,12 +3043,27 @@
             <set />
           </value>
         </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/product-v3/src/main/java/com/tmo/eus/product/business/BrowseService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/product-v3/src/main/java/com/tmo/eus/product/business/mapper/UIToBackendMapping.java">
           <value>
             <set />
           </value>
         </entry>
         <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/product-v3/src/main/java/com/tmo/eus/product/model/ProductPlansDetailRequest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/product-v3/src/test/java/com/tmo/eus/product/business/BrowseServiceTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/product-v3/src/test/resources/Request_2127.json">
           <value>
             <set />
           </value>
@@ -3589,6 +3659,11 @@
           </value>
         </entry>
         <entry key="C:/AMit/Intellij_customer_dev1/tmo-microservices_dev/wsil-tier/wsil-usage/src/main/java/com/tmo/eus/wsil/usage/model/Contact.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/AMit/Intellij_customer_dev1_config/tmo-es-config_config2/PREQAT1R2/application.properties">
           <value>
             <set />
           </value>
@@ -4373,6 +4448,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/MatrixFindANumber.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/MatrixPrint.java">
           <value>
             <set />
@@ -4504,6 +4584,41 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/java/json/AccountHolderAddress.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../spring-redis-caching-example-master/tools/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../spring-redis-caching-example-master/tools/src/main/java/Controller.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../spring-redis-caching-example-master/tools/src/main/java/SpringBootApp.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../spring-redis-caching-example-master/tools/src/main/java/brt/Controller.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../spring-redis-caching-example-master/tools/src/main/java/brt/SpringBootApp.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../spring-redis-caching-example-master/tools/src/main/java/brt/model/PingPost.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../spring-redis-caching-example-master/tools/src/main/resources/bootstrap.yml">
           <value>
             <set />
           </value>
