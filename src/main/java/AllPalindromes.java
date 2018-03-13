@@ -5,13 +5,15 @@ import java.util.stream.IntStream;
  */
 public class AllPalindromes {
 
+    static String longest = "";
+
     public static boolean checkPalindrome(String str) {
-        for(int i=0;i<=str.length()/2;i++)
-            if(str.charAt(i)!=str.charAt(str.length()-1-i))
+        for (int i = 0; i <= str.length() / 2; i++)
+            if (str.charAt(i) != str.charAt(str.length() - 1 - i))
                 return false;
         return true;
     }
-   static String longest="";
+
     public static void printAllPalindrome(String str) {
        /* int longestlength=0;
         String longestString=null;
@@ -31,19 +33,18 @@ public class AllPalindromes {
         System.out.println(longestString);*/
 
 
-        IntStream.range(0,str.length()).forEach(i-> IntStream.range(i,str.length()).forEach(j->{
-            if(checkPalindrome(str.substring(i,j+1))){
-                if(str.substring(i,j+1).length()>longest.length()){
-                    longest=str.substring(i,j+1);
+        IntStream.range(0, str.length()).forEach(i -> IntStream.range(i, str.length()).forEach(j -> {
+            if (checkPalindrome(str.substring(i, j + 1))) {
+                if (str.substring(i, j + 1).length() > longest.length()) {
+                    longest = str.substring(i, j + 1);
                 }
             }
         }));
         System.out.println(longest);
     }
 
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         printAllPalindrome("aabbaaaaa");
-     //   System.out.println(checkPalindrome("aabae"));
+        //   System.out.println(checkPalindrome("aabae"));
     }
 }

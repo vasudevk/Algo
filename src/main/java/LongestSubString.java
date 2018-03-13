@@ -1,4 +1,7 @@
-import java.util.*;
+import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
+import java.util.Set;
+import java.util.stream.Collectors;
 
 /**
  * Created by amit.k.mannur on 11/7/2017.
@@ -48,15 +51,15 @@ public class LongestSubString {
 
         for (int i = 0; i < charArray.length; i++) {
             char ch = charArray[i];
-            if (!charPosMap.containsKey(ch)) {
-                charPosMap.put(ch, i);
-            } else {
+            if (charPosMap.containsKey(ch)) {
                 i = charPosMap.get(ch);
                 charPosMap.clear();
+            } else {
+                charPosMap.put(ch, i);
             }
             if (charPosMap.size() > longestSubstringLength) {
                 longestSubstringLength = charPosMap.size();
-                longestSubstring = charPosMap.keySet().toString();
+                longestSubstring = charPosMap.keySet().stream().map(Object::toString).collect(Collectors.joining());
             }
         }
 
@@ -67,7 +70,7 @@ public class LongestSubString {
 
     public static void main(String as[]) {
         LongestSubString longestSubString = new LongestSubString();
-        System.out.println(longestSubString.lengthOfLongestSubstring("akomitaseada"));
+        //System.out.println(longestSubString.lengthOfLongestSubstring("akomitaseada"));
         longestSubString.longestSubstring("akomitaseada");
     }
 }

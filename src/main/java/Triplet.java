@@ -1,16 +1,20 @@
-import java.util.*;
-import java.util.stream.Collectors;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.NavigableSet;
+import java.util.TreeSet;
+
+import static java.lang.Math.sqrt;
 
 /**
  * Created by amit.k.mannur on 1/22/2018.
  */
 public class Triplet {
     static List tripList = new ArrayList();
-    int a;
-    int b;
-    int sum;
+    double a;
+    double b;
+    double sum;
 
-    public Triplet(int a, int b, int sum) {
+    private Triplet(int a, int b, int sum) {
         this.a = a;
         this.b = b;
         this.sum = sum;
@@ -19,7 +23,7 @@ public class Triplet {
     public static void main(String[] as) {
         Triplet triplet = new Triplet(0, 0, 0);
 
-        triplet.getTriplets(new int[]{3, 1, 4, 6, 5});
+        triplet.getTriplets(new int[]{3, 1, 4, 6, 5,1,1,2,1});
         System.out.println(tripList);
 
 }
@@ -35,14 +39,14 @@ public class Triplet {
 
     private void getTriplets(int[] arr) {
 
-        NavigableSet<Integer> set = new TreeSet<>();
-        for (int element : arr) {
-            set.add(element * element);
+        NavigableSet<Double> set = new TreeSet<>();
+        for (double element : arr) {
+            set.add(Double.valueOf(element * element));
         }
-        for (Integer a : set) {
-            for (Integer b : set.tailSet(a, false)) {
-                if (set.tailSet(b, false).contains(Math.sqrt((a*a + b*b)))) {
-                    tripList.add(new Triplet((int) Math.sqrt(a), (int) Math.sqrt(b), (int) Math.sqrt(a + b)));
+        for (Double a : set) {
+            for (Double b : set.tailSet(a, false)) {
+                if (set.tailSet(b, false).contains(sqrt((a*a + b*b)))) {
+                    tripList.add(new Triplet((int) sqrt(a), (int) sqrt(b), (int) sqrt(a + b)));
                 }
             }
         }

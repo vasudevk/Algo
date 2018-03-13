@@ -5,10 +5,10 @@ public class LongestPalindrome {
     public static void main(String... as) {
         LongestPalindrome longestPalindrome = new LongestPalindrome();
         System.out.println(longestPalindrome.longestPalindrome("asasssaamittimas1s"));
-        System.out.println(longestPalindrome.findLongestPalindromeInString("asasssaamittimas1s"));
+        System.out.println(findLongestPalindromeInString("xxxxcasdfaafdsaxxxx"));
     }
 
-    public static String findLongestPalindromeInString(String str) {
+    static String findLongestPalindromeInString(String str) {
         if (str == null)
             return null;
 
@@ -16,12 +16,12 @@ public class LongestPalindrome {
 
         for (int i = 0; i < str.length() - 1; i++) {
 
-            String returnedPalindrome = findLongestPalindromeWithSpecifiedParameter(str, i, i);
+          /*  String returnedPalindrome = findLongestPalindromeWithSpecifiedParameter(str, i, i);
             if (returnedPalindrome.length() > longestPalindrome.length()) {
                 longestPalindrome = returnedPalindrome;
             }
-
-            returnedPalindrome = findLongestPalindromeWithSpecifiedParameter(str, i, i + 1);
+*/
+            String returnedPalindrome = findLongestPalindromeWithSpecifiedParameter(str, i, i + 1);
             if (returnedPalindrome.length() > longestPalindrome.length()) {
                 longestPalindrome = returnedPalindrome;
             }
