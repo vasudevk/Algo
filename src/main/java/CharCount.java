@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 /**
  * Created by amit.k.mannur on 9/1/2017.
  */
@@ -15,7 +13,7 @@ public class CharCount {
         for (int c2 : c) {
             ++i;
             if (c2 != 0) {
-                if('a'==(char)(i-1))
+                //if('a'==(char)(i-1))
                 System.out.println((char) (i - 1) + " count: " + c2);
             }
         }

@@ -1,7 +1,6 @@
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 public class Anagram {
 
@@ -14,11 +13,11 @@ public class Anagram {
     public List<List<String>> groupAnagrams(String[] strs) {
         List<List<String>> result = new ArrayList<List<String>>();
 
-        HashMap<String, ArrayList<String>> map = new HashMap<String, ArrayList<String>>();
+        HashMap<String, List<String>> map = new HashMap<>();
         for(String str: strs){
             char[] arr = new char[26];
             for(int i=0; i<str.length(); i++){
-                arr[str.charAt(i)-'a']++;
+                arr[str.charAt(i) - 'a'] += 1;
             }
             String ns = new String(arr);
 

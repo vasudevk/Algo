@@ -23,5 +23,30 @@ public class StringNull {
         System.out.println(Arrays.asList(a.toCharArray().toString()));
         List<Character> list6 = "amit".chars().mapToObj(i -> (char) i).collect(Collectors.toList());
         System.out.println(list6);
+        System.out.println(convertStringToInt("789"));
+        System.out.println(strToInt("1289"));
+    }
+    public static int convertStringToInt(String num) {
+        int result = 0;
+
+        for (char c: num.toCharArray()) {
+            c -= 48;
+            if (c <= 9) {
+                result = (result << 3) + (result << 1) + c;
+            } else return -1;
+        }
+        return result;
+    }
+
+    public static int strToInt( String str ){
+        int i = 0;
+        int num = 0;
+
+        //Process each character of the string;
+        while( i < str.length()) {
+            num *= 10;
+            num += str.charAt(i++) - '0'; //Minus the ASCII code of '0' to get the value of the charAt(i++).
+        }
+        return num;
     }
 }

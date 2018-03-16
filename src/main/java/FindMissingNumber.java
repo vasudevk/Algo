@@ -17,7 +17,7 @@ public class FindMissingNumber {
                 System.out.println(k);
         }*/
 
-        IntStream.range(1,IntStream.of(series).max().getAsInt()).parallel().forEach(k->{
+        IntStream.range(1,IntStream.of(series).max().getAsInt()).forEach(k->{
             if (numbers[k] == 0)
                 System.out.println(k);
         });

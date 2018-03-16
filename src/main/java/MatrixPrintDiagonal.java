@@ -5,7 +5,7 @@ public class MatrixPrintDiagonal {
 
 
     public static void main(String[] as) {
-        int[][] a = {{1, 2, 3, 4},
+        int[][] a =    {{1, 2, 3, 4},
                     {5, 6, 7, 8},
                     {9, 1, 2, 3}};
 
@@ -15,7 +15,7 @@ public class MatrixPrintDiagonal {
             int i = k;
             int j = 0;
             while (i >= 0) {
-                System.out.print(a[i][j]);
+                System.out.print(a[i][j]+" ");
                 i--;
                 j++;
             }
@@ -25,7 +25,7 @@ public class MatrixPrintDiagonal {
             int i = m - 1;
             int j = k;
             while (j < n) {
-                System.out.print(a[i][j]);
+                System.out.print(a[i][j]+" ");
                 i--;
                 j++;
             }

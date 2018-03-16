@@ -1,5 +1,7 @@
+import java.util.Arrays;
 import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
+import java.util.Map;
 import java.util.Set;
 import java.util.stream.Collectors;
 
@@ -7,6 +9,38 @@ import java.util.stream.Collectors;
  * Created by amit.k.mannur on 11/7/2017.
  */
 public class LongestSubString {
+
+    static void longestSubstring(String str) {
+        int longestString = 0;
+        Set as;
+        Map<Character, Integer> characterMap = new LinkedHashMap<>();
+        characterMap.clear();
+        String as1 = new String();
+        for (int i = 0; i < str.length() - 1; i++) {
+            if (characterMap.containsKey(str.charAt(i))) {
+                i = characterMap.get(str.charAt(i));
+                characterMap.clear();
+            } else {
+                characterMap.put(str.charAt(i), i);
+            }
+            if (characterMap.size() > longestString) {
+                longestString = characterMap.size();
+                as = characterMap.keySet();
+                as1 = Arrays.stream(as.toArray())
+                        .map(Object::toString)
+                        .collect(Collectors.joining());
+
+            }
+        }
+        System.out.println(as1);
+        System.out.println(longestString);
+    }
+
+    public static void main(String as[]) {
+        LongestSubString longestSubString = new LongestSubString();
+        //System.out.println(longestSubString.lengthOfLongestSubstring("akomitaseada"));
+        longestSubString.longestSubstring("akomitaseada");
+    }
 
     public Set lengthOfLongestSubstring(String s) {
         int n = s.length();
@@ -38,40 +72,6 @@ public class LongestSubString {
         System.out.println(result);
         return result.length();
 
-    }
-
-
-    static void longestSubstring(String inputString) {
-
-        char[] charArray = inputString.toCharArray();
-        String longestSubstring = null;
-        int longestSubstringLength = 0;
-
-        LinkedHashMap<Character, Integer> charPosMap = new LinkedHashMap<Character, Integer>();
-
-        for (int i = 0; i < charArray.length; i++) {
-            char ch = charArray[i];
-            if (charPosMap.containsKey(ch)) {
-                i = charPosMap.get(ch);
-                charPosMap.clear();
-            } else {
-                charPosMap.put(ch, i);
-            }
-            if (charPosMap.size() > longestSubstringLength) {
-                longestSubstringLength = charPosMap.size();
-                longestSubstring = charPosMap.keySet().stream().map(Object::toString).collect(Collectors.joining());
-            }
-        }
-
-        System.out.println("Input String : " + inputString);
-        System.out.println("The longest substring : " + longestSubstring);
-        System.out.println("The longest Substring Length : " + longestSubstringLength);
-    }
-
-    public static void main(String as[]) {
-        LongestSubString longestSubString = new LongestSubString();
-        //System.out.println(longestSubString.lengthOfLongestSubstring("akomitaseada"));
-        longestSubString.longestSubstring("akomitaseada");
     }
 }
 

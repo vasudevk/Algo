@@ -3,6 +3,11 @@
   <component name="issues">
     <option name="index">
       <map>
+        <entry key="/Clipboard.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="/Dummy.txt">
           <value>
             <set />
@@ -1828,6 +1833,11 @@
             <set />
           </value>
         </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev/cart/src/main/java/com/tmo/eus/cart/business/ServiceBundleApplicationServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev/cart/src/main/java/com/tmo/eus/cart/business/billingtypebuilders/ICartBillingType.java">
           <value>
             <set />
@@ -2423,6 +2433,11 @@
             <set />
           </value>
         </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev/product-v3/src/test/java/com/tmo/eus/product/business/BrowseServiceTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev/product-v3/src/test/java/com/tmo/eus/product/business/ProductServiceImplTest.java">
           <value>
             <set />
@@ -2728,7 +2743,107 @@
             <set />
           </value>
         </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/assisted-customer-support/src/main/java/com/tmo/eus/assistedcustsupport/business/AccountDetailsApplicationServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/assisted-customer-support/src/main/java/com/tmo/eus/assistedcustsupport/business/AccountDetailsAsyncHelper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/assisted-customer-support/src/main/java/com/tmo/eus/assistedcustsupport/business/AssistedCustomerSupportApplicationServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/assisted-customer-support/src/main/java/com/tmo/eus/assistedcustsupport/business/CustomerRequestApplicationServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/assisted-customer-support/src/main/java/com/tmo/eus/assistedcustsupport/business/CustomerRequestsApplicationServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/assisted-customer-support/src/main/java/com/tmo/eus/assistedcustsupport/business/orchestration/AssistedCustSupportServiceFacadeImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/assisted-customer-support/src/main/java/com/tmo/eus/assistedcustsupport/business/orchestration/IAssistedCustSupportServiceFacade.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/assisted-customer-support/src/main/java/com/tmo/eus/assistedcustsupport/casemanagement/business/CustomerRequestApplicationServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/assisted-customer-support/src/main/java/com/tmo/eus/assistedcustsupport/constants/AssistedCustomerSupportConstants.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/assisted-customer-support/src/main/java/com/tmo/eus/assistedcustsupport/integration/AssistedCustSupportServiceBrokerImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/assisted-customer-support/src/main/java/com/tmo/eus/assistedcustsupport/integration/CustomerRequestServiceBrokerImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/assisted-customer-support/src/main/java/com/tmo/eus/assistedcustsupport/model/casemanagement/329/SuperSet.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/assisted-customer-support/src/main/java/com/tmo/eus/assistedcustsupport/model/casemanagement/API/SuperSet.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/assisted-customer-support/src/main/java/com/tmo/eus/assistedcustsupport/model/casemanagement/API/builder/PostCreateCase.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/assisted-customer-support/src/main/java/com/tmo/eus/assistedcustsupport/model/casemanagement/PostAdjustChargeRequest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/assisted-customer-support/src/main/java/com/tmo/eus/assistedcustsupport/model/casemanagement/PostReturnPaymentDisputeRequest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/assisted-customer-support/src/main/java/com/tmo/eus/assistedcustsupport/model/customer/ApplyCreditRequest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/assisted-customer-support/src/main/java/com/tmo/eus/assistedcustsupport/presentation/AssistedCustomerSupportController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/assisted-customer-support/src/main/resources/bootstrap.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/assisted-customer-support/src/test/java/com/tmo/eus/assistedcustsupport/business/AccountDetailsAsyncHelperTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/assisted-customer-support/src/test/java/com/tmo/eus/assistedcustsupport/presentation/AssistedCustomerSupportControllerTest.java">
           <value>
             <set />
           </value>
@@ -2768,12 +2883,47 @@
             <set />
           </value>
         </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/assisted-repdash/src/main/java/com/tmo/eus/assistedrepdash/business/SaveMemoAndFollowupApplicationServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/assisted-repdash/src/main/java/com/tmo/eus/assistedrepdash/constant/RepDashConstants.java">
           <value>
             <set />
           </value>
         </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/assisted-repdash/src/main/java/com/tmo/eus/assistedrepdash/model/savememoandfollowup/request/SaveMemoAndFollowupRequest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/assisted-repdash/src/main/java/com/tmo/eus/assistedrepdash/presentation/RepDashController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/assisted-repdash/src/test/java/com/tmo/eus/assistedrepdash/business/SaveMemoAndFollowupApplicationServiceImplTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/assisted-repdash/src/test/java/com/tmo/eus/assistedrepdash/business/bo/CreateCaseBOImplTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/assisted-repdash/src/test/java/com/tmo/eus/assistedrepdash/business/orchestration/RepDashServiceFacadeImplTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/assisted-repdash/src/test/java/com/tmo/eus/assistedrepdash/presentation/RepDashControllerTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/assisted-repdash/src/test/resources/savememofollowupreq.json">
           <value>
             <set />
           </value>
@@ -2789,6 +2939,11 @@
           </value>
         </entry>
         <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/auth/src/main/java/com/tmo/eus/auth/presentation/AuthController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/auth/src/main/resources/bootstrap.yml">
           <value>
             <set />
           </value>
@@ -2903,12 +3058,22 @@
             <set />
           </value>
         </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/common-components/common-model/src/test/java/com/tmo/eus/common/ui/UiMessageTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/common-components/elasticsearch/src/main/java/com/tmo/eus/elasticsearch/integration/ElasticSearchServiceBrokerImpl.java">
           <value>
             <set />
           </value>
         </entry>
         <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/common-components/elasticsearch/src/main/java/com/tmo/eus/elasticsearch/integration/IElasticSearchServiceBroker.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/customer-billing-v3/src/main/java/com/tmo/eus/customerbilling/model/acctlinebillingdetails/BillingDetailsRequest.java">
           <value>
             <set />
           </value>
@@ -2998,6 +3163,16 @@
             <set />
           </value>
         </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/esp-tier/esp-customernoteenterprise/src/main/java/com/tmo/eus/esp/customernoteenterpriseintegration/CustomerNoteEnterpriseServiceBrokerImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/framework/src/main/java/com/tmo/eus/framework/cache/gemfire/GFCaching.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/framework/src/main/java/com/tmo/eus/framework/cache/redis/KeyObject.java">
           <value>
             <set />
@@ -3043,7 +3218,27 @@
             <set />
           </value>
         </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/payment/src/main/java/com/tmo/eus/payment/presentation/PaymentController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/payment/src/main/resources/bootstrap.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/product-v3/src/main/java/com/tmo/eus/product/business/BrowseService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/product-v3/src/main/java/com/tmo/eus/product/business/ProductServiceImpl.java">
           <value>
             <set />
           </value>
@@ -3054,6 +3249,16 @@
           </value>
         </entry>
         <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/product-v3/src/main/java/com/tmo/eus/product/model/ProductPlansDetailRequest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/product-v3/src/main/java/com/tmo/eus/product/presentation/compare">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/product-v3/src/main/resources/bootstrap.yml">
           <value>
             <set />
           </value>
@@ -3138,6 +3343,16 @@
             <set />
           </value>
         </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/retail-store/src/main/resources/bootstrap.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/telemetry/src/main/java/com/tmo/eus/telemetry/intergation/splunk/GenericSplunkLogger.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/telemetry/src/main/java/com/tmo/eus/telemetry/presentation/controller/TelemetryController.java">
           <value>
             <set />
@@ -3149,6 +3364,26 @@
           </value>
         </entry>
         <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/wsil-tier/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/wsil-tier/wsil-case-v3/src/main/java/com/tmo/eus/wsil/cases/integration/CaseServiceBrokerImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/wsil-tier/wsil-case-v3/src/main/java/com/tmo/eus/wsil/cases/integration/ICaseServiceBroker.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/wsil-tier/wsil-common/src/main/java/com/tmo/eus/wsil/common/util/CommonWsilUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/wsil-tier/wsil-customerdetails/src/main/java/com/tmo/eus/wsil/customerdetails/integration/CustomerDetailsBrokerImpl.java">
           <value>
             <set />
           </value>
@@ -3219,6 +3454,11 @@
           </value>
         </entry>
         <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/wsil-tier/wsil-security/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/wsil-tier/wsil-storeoperations/src/main/java/com/tmo/eus/wsil/storeoperations/integration/StoreOperationsServiceBrokerImpl.java">
           <value>
             <set />
           </value>
@@ -3663,12 +3903,27 @@
             <set />
           </value>
         </entry>
+        <entry key="C:/AMit/Intellij_customer_dev1_config/tmo-es-config_config2/Dev1R2/application.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/AMit/Intellij_customer_dev1_config/tmo-es-config_config2/Dev1R2/assisted-lookup.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="C:/AMit/Intellij_customer_dev1_config/tmo-es-config_config2/PREQAT1R2/application.properties">
           <value>
             <set />
           </value>
         </entry>
         <entry key="C:/AMit/Intellij_customer_dev1_config/tmo-es-config_config2/application.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/AMit/Intellij_customer_dev1_config/tmo-es-config_config2/assisted-lookup.properties">
           <value>
             <set />
           </value>
@@ -4363,12 +4618,27 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/AllPalindrome.java">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/java/AllPalindromes.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/Anagram.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/AnagramTry.java">
           <value>
             <set />
           </value>
@@ -4448,6 +4718,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/LongestSubStringDeleteLater.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/MatrixFindANumber.java">
           <value>
             <set />
@@ -4498,12 +4773,27 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/RotateArray.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/SingleLinkedList.java">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/java/Solution.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/StringNull.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/StringToInt.java">
           <value>
             <set />
           </value>
