@@ -1,3 +1,6 @@
+import java.util.Map;
+import java.util.stream.Collectors;
+
 /**
  * Created by amit.k.mannur on 12/27/2017.
  */
@@ -5,17 +8,17 @@
 
 class MaxRepeating {
 
-    static int maxRepeating(int arr[], int n, int k)
+    static int maxRepeating(int a[], int n)
     {
         for (int i = 0; i< n; i++)
-            arr[(arr[i] % arr.length)] = arr[(arr[i] % arr.length)] + arr.length;
+            a[(a[i] % a.length)] = a[(a[i] % a.length)] + a.length;
 
-        int max = arr[0], result = 0;
+        int max = a[0], result = 0;
         for (int i = 1; i < n; i++)
         {
-            if (arr[i] > max)
+            if (a[i] > max)
             {
-                max = arr[i];
+                max = a[i];
                 result = i;
             }
         }
@@ -24,10 +27,27 @@ class MaxRepeating {
 
     public static void main (String[] args)
     {
-        int arr[] = {2, 3, 3, 3, 3, 4, 1, 7,10,2,2,2,3,3,3,3,3,3,3,3,3};
+        //onlt single digit
+        int arr[] = {2, 3, 3, 3, 3, 4, 1, 7,1,2,2,2,1};
         int n = arr.length;
-        int k=1;
+
         System.out.println("Maximum repeating element is: " +
-                maxRepeating(arr,n,k));
+               maxRepeating(arr,n));
+
+        Map<Character, Long> map = "amitaammmaaaaaaaaaaa".chars()
+                .boxed()
+                .collect(Collectors.groupingBy(
+                        i -> ((char) i.intValue()),
+                        Collectors.counting()));
+
+        System.out.println(map);
+        Map<Character, Long> map2 = "amitamamm".chars()
+                .boxed()
+                .collect(Collectors.groupingBy(
+                        i -> ((char) i.intValue()),
+                        Collectors.counting()));
+        System.out.println(map2);
+        System.out.println(map.equals(map2));
+
     }
 }

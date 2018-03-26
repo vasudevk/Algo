@@ -16,13 +16,18 @@ public class CountChar {
 
     private void countChar() throws IOException {
         HashMap hashMap = new HashMap();
-        List list = new ArrayList();
-        list = "aammit".chars().mapToObj(r -> (char) r).collect(Collectors.toList());
-        list.stream().forEach(e -> {
+        List<Character> list = new ArrayList();
+        list = "aabbac".chars().mapToObj(r -> (char) r ).collect(Collectors.toList());
+        //int s= list.stream().reduce((a,b)->a+b).get();
+
+        list.forEach(e -> {
             hashMap.computeIfPresent(e, (K, V) -> (int) V + 1);
             hashMap.computeIfAbsent(e, (V) -> 1);
         });
-
+        hashMap.forEach((k,v)->{
+            if((int)v>1)
+            System.out.println(k+":"+v);
+        });
         System.out.println(hashMap);
 
     }

@@ -1,4 +1,3 @@
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 // Java implementation of search and insert operations
@@ -20,7 +19,13 @@ public class TrieDS {
             isLeaf = false;
         }
 
-
+        @Override
+        public String toString() {
+            return "TrieNode{" +
+                    "children=" + Arrays.toString(children) +
+                    ", isLeaf=" + isLeaf +
+                    '}';
+        }
     }
 
 
@@ -67,7 +72,6 @@ public class TrieDS {
 
             pCrawl = pCrawl.children[index];
         }
-
         return (pCrawl != null && pCrawl.isLeaf);
     }
 
@@ -89,9 +93,10 @@ public class TrieDS {
             insert(keys[i]);
 
         // Search for different keys
-        if(search("the") == true)
+        if(search("the"))
             System.out.println("the --- " + output[1]);
-        else System.out.println("the --- " + output[0]);
+        else
+            System.out.println("the --- " + output[0]);
 
         if(search("these") == true)
             System.out.println("these --- " + output[1]);

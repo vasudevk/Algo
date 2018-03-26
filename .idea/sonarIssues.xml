@@ -1758,6 +1758,21 @@
             <set />
           </value>
         </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev/assisted-customer-support/src/main/java/com/tmo/eus/assistedcustsupport/business/CustomerRequestsApplicationServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev/assisted-customer-support/src/main/java/com/tmo/eus/assistedcustsupport/constants/AssistedCustomerSupportConstants.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev/assisted-customer-support/src/main/java/com/tmo/eus/assistedcustsupport/presentation/AssistedCustomerSupportController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev/assisted-lookup/src/main/java/com/tmo/eus/assistedlookup/business/SpecialInstructionApplicationServiceImpl.java">
           <value>
             <set />
@@ -2058,6 +2073,11 @@
             <set />
           </value>
         </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev/customer-billing-v3/src/main/java/com/tmo/eus/customerbilling/presentation/CustomerBillingController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev/customer-billing/pom.xml">
           <value>
             <set />
@@ -2349,6 +2369,26 @@
           </value>
         </entry>
         <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev/orders/src/main/java/com/tmo/eus/order/business/PostCreateOrderApplicationServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev/payment/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev/payment/src/main/java/com/tmo/eus/payment/business/AutoPayApplicationServiceWithAsyncSupport.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev/payment/src/main/java/com/tmo/eus/payment/business/bo/PaymentAddChargeBOImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev/payment/src/main/resources/bootstrap.yml">
           <value>
             <set />
           </value>
@@ -2653,6 +2693,31 @@
             <set />
           </value>
         </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev/wsil-tier/wsil-financialaccount-v3/src/main/java/com/tmo/eus/wsil/financialaccount/integration/FinancialAccServiceBrokerImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev/wsil-tier/wsil-financialaccount-v3/src/main/java/com/tmo/eus/wsil/financialaccount/integration/IFinancialAccServiceBroker.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev/wsil-tier/wsil-financialaccount/src/main/java/com/tmo/eus/wsil/financialaccount/integration/FinancialAccountServiceBrokerImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev/wsil-tier/wsil-financialaccount/src/main/java/com/tmo/eus/wsil/financialaccount/model/Address.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev/wsil-tier/wsil-financialaccount/src/main/java/com/tmo/eus/wsil/financialaccount/model/ProductType.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev/wsil-tier/wsil-financialaccountdata/src/main/java/com/tmo/eus/wsil/financialaccountdata/integration/FinancialAccountDataServiceBrokerImpl.java">
           <value>
             <set />
@@ -2818,6 +2883,16 @@
             <set />
           </value>
         </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/assisted-customer-support/src/main/java/com/tmo/eus/assistedcustsupport/model/casemanagement/PostApplyCreditRequest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/assisted-customer-support/src/main/java/com/tmo/eus/assistedcustsupport/model/casemanagement/PostCreateCaseRequest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/assisted-customer-support/src/main/java/com/tmo/eus/assistedcustsupport/model/casemanagement/PostReturnPaymentDisputeRequest.java">
           <value>
             <set />
@@ -2888,6 +2963,11 @@
             <set />
           </value>
         </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/assisted-repdash/src/main/java/com/tmo/eus/assistedrepdash/business/bo/CreateEventBOImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/assisted-repdash/src/main/java/com/tmo/eus/assistedrepdash/constant/RepDashConstants.java">
           <value>
             <set />
@@ -2933,7 +3013,17 @@
             <set />
           </value>
         </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/auth/src/main/java/com/tmo/eus/auth/business/bo/PermissionDataBOImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/auth/src/main/java/com/tmo/eus/auth/constants/AuthConstants.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/auth/src/main/java/com/tmo/eus/auth/model/authorization/response/RoutePermission.java">
           <value>
             <set />
           </value>
@@ -3204,6 +3294,11 @@
           </value>
         </entry>
         <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/framework/src/main/java/com/tmo/eus/framework/common/FrameworkConstants.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev1/order-v3/src/main/resources/bootstrap.yml">
           <value>
             <set />
           </value>
@@ -4643,7 +4738,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/ArrayUnionAndIntersection.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/BinarySearch.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/Btree.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/BtreeSelf.java">
           <value>
             <set />
           </value>
@@ -4653,7 +4763,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/CoinChange.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/ColorFulString.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/CompareStringDeleteLater.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/ConCur.java">
           <value>
             <set />
           </value>
@@ -4673,7 +4798,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/FirstNonRepeatingInArray.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/FirstOccuranceOfDigit.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/HappyNumber.java">
           <value>
             <set />
           </value>
@@ -4704,6 +4839,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/java/LinkedListMain.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/LongestCommonSubsequence.java">
           <value>
             <set />
           </value>
@@ -4758,7 +4898,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/MergeTwoArrays.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/MinimumPathInMatrix.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/OneBitIn32Bit.java">
           <value>
             <set />
           </value>
@@ -4878,7 +5028,42 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/dp/CoinChange.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/dp/CoinChanging.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/dp/CoinChangingMinimumCoin.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/dp/ContagiousArraySum.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/dp/WaysToCoinChange.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/exampleBtree/MapList.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/json/AccountHolderAddress.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/resoucetest.txt">
           <value>
             <set />
           </value>

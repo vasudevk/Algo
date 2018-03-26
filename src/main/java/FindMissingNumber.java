@@ -4,11 +4,11 @@ import java.util.stream.IntStream;
 public class FindMissingNumber {
     public static void main(String... s) {
 
-        int[] series = {1, 2, 5, 6, 10};
-        int[] numbers = new int[IntStream.of(series).max().getAsInt()+1];
+        int[] series = {0};
+        int[] numbers = new int[series.length+1];
         /*for (int u : series) {
             numbers[(char) u] = 1;
-        }*/
+    }*/
         Arrays.stream(series).forEach(e->{
             numbers[(char) e] = 1;
         }) ;
@@ -17,7 +17,7 @@ public class FindMissingNumber {
                 System.out.println(k);
         }*/
 
-        IntStream.range(1,IntStream.of(series).max().getAsInt()).forEach(k->{
+        IntStream.range(0,series.length+1).forEach(k->{
             if (numbers[k] == 0)
                 System.out.println(k);
         });

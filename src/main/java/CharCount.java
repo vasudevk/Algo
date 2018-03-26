@@ -3,12 +3,19 @@
  */
 public class CharCount {
     public static void main(String... s) {
+        String ss = "11223333".toLowerCase();
+        char c1[] = ss.toCharArray();
+        countCharInString(ss);
+    }
+
+    private static void countCharInString(String ss) {
         int c[] = new int['z' + 1];
-        String ss = "aaauazAZ".toLowerCase();
+
         char c1[] = ss.toCharArray();
         for (char c2 : c1) {
-            c[c2] = 1 + c[c2];
+            c[c2]++;
         }
+
         int i = 0;
         for (int c2 : c) {
             ++i;
@@ -17,6 +24,5 @@ public class CharCount {
                 System.out.println((char) (i - 1) + " count: " + c2);
             }
         }
-
     }
 }

@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 // Java implementation of search and insert operations
@@ -91,7 +90,7 @@ public class TrieDS_find_subtree {
             insert(keys[i]);
 
         // Search for different keys
-        if (search("the") == true)
+        if (search("the"))
             System.out.println("the --- " + output[1]);
         else System.out.println("the --- " + output[0]);
 

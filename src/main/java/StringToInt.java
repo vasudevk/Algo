@@ -1,3 +1,6 @@
+import java.util.List;
+import java.util.stream.Collectors;
+
 /**
  * Created by amit.k.mannur on 3/13/2018.
  */
@@ -8,6 +11,7 @@ public class StringToInt {
 
         String[] doub="99.9".split("\\.");
         strToDouble(doub);
+        System.out.println(stringToInt("19"));
 
     }
 
@@ -27,6 +31,7 @@ public class StringToInt {
 
         for (char c: num.toCharArray()) {
             c -= 48;
+
             if (c <= 9) {
                 result = (result << 3) + (result << 1) + c;
             } else return -1;
@@ -42,5 +47,12 @@ public class StringToInt {
             num += str.charAt(i++) - '0'; //Minus the ASCII code of '0' to get the value of the charAt(i++).
         }
         return num;
+    }
+
+    private static int stringToInt(String aa){
+        List<Integer> list = aa.chars().mapToObj(r -> ((int) r -'0')).collect(Collectors.toList());
+       /* List<Double> listDouble = "".chars().mapToObj(r -> (double) r -'0').collect(Collectors.toList());
+        listDouble.stream().reduce((a,b)->a+b).get();*/
+        return list.stream().reduce((a,b)->a+b).get();
     }
 }

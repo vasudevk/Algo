@@ -12,7 +12,7 @@ public class AllPalindromes {
         return true;
     }
 
-    public static void printAllPalindrome(String str) {
+    private static void printAllPalindrome(String str) {
         int longestlength=0;
         String longestString=null;
         for(int i=0;i<=str.length();i++)

@@ -32,6 +32,11 @@ public class LongestSubStringDeleteLater {
                 as = characterMap.keySet();
             }
         }
+        String a="";
+        for(Object c:as){
+            a= String.format("%s%s", a, c);
+        }
+        System.out.println(a);
         System.out.println(as);
         System.out.println(longestString);
     }

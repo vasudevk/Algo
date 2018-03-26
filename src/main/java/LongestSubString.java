@@ -1,6 +1,5 @@
 import java.util.Arrays;
 import java.util.LinkedHashMap;
-import java.util.LinkedHashSet;
 import java.util.Map;
 import java.util.Set;
 import java.util.stream.Collectors;
@@ -15,7 +14,7 @@ public class LongestSubString {
         Set as;
         Map<Character, Integer> characterMap = new LinkedHashMap<>();
         characterMap.clear();
-        String as1 = new String();
+        String as1 = "";
         for (int i = 0; i < str.length() - 1; i++) {
             if (characterMap.containsKey(str.charAt(i))) {
                 i = characterMap.get(str.charAt(i));
@@ -40,38 +39,6 @@ public class LongestSubString {
         LongestSubString longestSubString = new LongestSubString();
         //System.out.println(longestSubString.lengthOfLongestSubstring("akomitaseada"));
         longestSubString.longestSubstring("akomitaseada");
-    }
-
-    public Set lengthOfLongestSubstring(String s) {
-        int n = s.length();
-        Set<Character> set = new LinkedHashSet<Character>();
-        int i = 0, j = 0;
-        while (i < n && j < n) {
-            char c = s.charAt(j);
-            char c1 = s.charAt(i);
-            if (!set.contains(c)) {
-                set.add(c);
-                j++;
-            } else {
-                set.remove(c1);
-                i++;
-            }
-        }
-
-
-        return set;
-    }
-
-    public int lengthOfLongestSubstring1(String s) {
-        String result = "";
-        for (int i = 0; i < s.length(); i++) {
-            if (!result.contains(Character.toString(s.charAt(i)))) {
-                result = result + Character.toString(s.charAt(i));
-            }
-        }
-        System.out.println(result);
-        return result.length();
-
     }
 }
 
