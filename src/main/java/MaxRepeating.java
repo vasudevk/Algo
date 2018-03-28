@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Map;
 import java.util.stream.Collectors;
 
@@ -29,6 +30,7 @@ class MaxRepeating {
     {
         //onlt single digit
         int arr[] = {2, 3, 3, 3, 3, 4, 1, 7,1,2,2,2,1};
+        Arrays.stream(arr).boxed().collect(Collectors.groupingBy(i->i,Collectors.counting()));
         int n = arr.length;
 
         System.out.println("Maximum repeating element is: " +

@@ -31,4 +31,13 @@ public class CountChar {
         System.out.println(hashMap);
 
     }
+
+    private void countCharMap() throws IOException {
+        HashMap hashMap = new HashMap();
+        List<Character> list = new ArrayList();
+        list = "aabbac".chars().mapToObj(r -> (char) r ).collect(Collectors.toList());
+        char[] chars="aabbac".toCharArray();
+        System.out.println(hashMap);
+
+    }
 }

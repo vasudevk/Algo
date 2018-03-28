@@ -7,6 +7,7 @@ public class OneBitIn32Bit {
         System.out.println(hammingWeight(3));
         System.out.println(hammingWeight2(3));
     }
+
     public static int hammingWeight(int n) {
         int bits = 0;
         int mask = 1;
@@ -18,12 +19,13 @@ public class OneBitIn32Bit {
         }
         return bits;
     }
+
     public static int hammingWeight2(int n) {
-        int sum = 0;
+        int count = 0;
         while (n != 0) {
-            sum++;
+            count++;
             n = n & (n - 1);
         }
-        return sum;
+        return count;
     }
 }

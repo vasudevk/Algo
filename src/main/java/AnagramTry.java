@@ -24,11 +24,11 @@ public class AnagramTry {
                            anna[i].chars().mapToObj(c -> (char)c).toArray(Character[]::new);
                    str1=Arrays.asList(charObjectArray);
                    str2=Arrays.asList(anna[j+1].chars().mapToObj(c -> (char)c).toArray(Character[]::new));
-
+                    String s= Arrays.deepToString(charObjectArray);
                    if(str1.containsAll(str2)){
                       // System.out.println("annagram is :"+str1+"  "+str2);
-                       Map<List<Character>,String> map=new HashMap<>();
-                       map.put(str1,str1+"  "+str2);
+                       Map<String,String> map=new HashMap<>();
+                       map.put(s,str1+"  "+str2);
                        System.out.println(map);
                    }
                }

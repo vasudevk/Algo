@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 /**
  * Created by amit.k.mannur on 9/1/2017.
  */
@@ -11,16 +9,17 @@ public class QuickSort {
 public static void main(String... a){
     QuickSort quickSort=new QuickSort();
     int oi[]={1,2,3,8,5,97,45,6,7,2,1};
-    String s="aamiimt";
+    String s="aamimtai";
     char c[]=s.toCharArray();
     quickSort.sort(c);
+    //overloaded
     quickSort.sort(oi);
     System.out.println(String.valueOf(c));
     for(int i:oi){
-        System.out.println(i);
+        System.out.print(i+" ");
     }
 }
-    public void sort(int[] values) {
+    private void sort(int[] values) {
         // check for empty or null array
         if (values == null || values.length == 0) {
             return;
@@ -33,7 +32,7 @@ public static void main(String... a){
     private void quicksort(int low, int high) {
         int i = low, j = high;
         // Get the pivot element from the middle of the list
-        int pivot = numbers[low + (high - low) / 2];
+        int pivot = numbers[low + high >>> 1];
 
         // Divide into two lists
         while (i <= j) {
@@ -54,7 +53,9 @@ public static void main(String... a){
             // values.
             // As we are done we can increase i and j
             if (i <= j) {
-                exchange(i, j);
+                int temp = numbers[i];
+                numbers[i] = numbers[j];
+                numbers[j] = temp;
                 i++;
                 j--;
             }
@@ -85,7 +86,7 @@ public static void main(String... a){
     private void quicksortchar(int low, int high) {
         int i = low, j = high;
         // Get the pivot element from the middle of the list
-        int pivot = chars[low + (high - low) / 2];
+        int pivot = chars[low+high >>>1];
 
         // Divide into two lists
         while (i <= j) {
