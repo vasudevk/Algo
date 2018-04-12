@@ -18,7 +18,6 @@ public class AllPalindromes {
         for(int i=0;i<=str.length();i++)
             for(int j=i;j<str.length();j++)
                 if(checkPalindrome(str.substring(i,j+1))) {
-
                     if(str.substring(i, j + 1).length()>longestlength){
                         longestlength=str.substring(i, j + 1).length();
                         longestString=str.substring(i, j + 1);

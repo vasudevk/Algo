@@ -4,8 +4,6 @@
 /* Java program for Dynamic Programming implementation
    of Min Cost Path problem */
 
-import java.util.*;
-
 class MinimumCostPath {
 
     /* A utility function that returns minimum of 3 integers */
@@ -45,8 +43,10 @@ class MinimumCostPath {
         int cost[][] =
                        {{1, 2, 3, 5},
                         {4, 8, 8, 5},
-                        {1, 5, 3, 5}};
+                        {1, 5, 3, 5},
+                        {1, 1, 1, 5}
+                       };
         System.out.println("minimum cost to reach  = " +
-                minCost(cost, 2, 3));
+                minCost(cost, 3, 3));
     }
 }

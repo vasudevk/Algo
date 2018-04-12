@@ -12,13 +12,12 @@ public class CoinChanging {
 
     public static void main(String args[]) {
         CoinChanging cc = new CoinChanging();
-        int total = 5;
-        int coins[] = {2, 3, 6};
+        int total = 1;
+        int coins[] = {2};
         System.out.println(cc.numberOfSolutions(total, coins));
         System.out.println(cc.numberOfSolutionsOnSpace(total, coins));
         cc.printCoinChangingSolution(total, coins);
-        System.out.println(i);
-        System.out.println(ia+": "+ib+" :"+ic);
+
     }
 
     private int numberOfSolutions(int total, int coins[]) {
@@ -43,13 +42,13 @@ public class CoinChanging {
      * Space efficient DP solution
      */
     private int numberOfSolutionsOnSpace(int total, int arr[]) {
-
+        /*int total = 5;
+        int coins[] = {1,2};*/
         int temp[] = new int[total + 1];
 
         temp[0] = 1;
         for (int anArr : arr) {
             for (int j = 1; j <= total; j++) {
-                ib++;
                 if (j >= anArr) {
                     temp[j] = temp[j] + temp[j - anArr];
                 }
@@ -69,8 +68,6 @@ public class CoinChanging {
     private void printActualSolution(List<Integer> result, int total, int coins[], int pos) {
 
         if (total == 0) {
-            i++;
-            ic++;
             for (int r : result) {
                 System.out.print(r + " ");
             }
@@ -78,7 +75,6 @@ public class CoinChanging {
         }
         for (int i = pos; i < coins.length; i++) {
             if (total >= coins[i]) {
-                ic++;
                 result.add(coins[i]);
                 printActualSolution(result, total - coins[i], coins, i);
                 result.remove(result.size()-1);

@@ -106,9 +106,9 @@ public class TrieDS {
             System.out.println("their --- " + output[1]);
         else System.out.println("their --- " + output[0]);
 
-        if(search("thaw") == true)
-            System.out.println("thaw --- " + output[1]);
-        else System.out.println("thaw --- " + output[0]);
+        if(search("ans") == true)
+            System.out.println("ans --- " + output[1]);
+        else System.out.println("ans --- " + output[0]);
 
     }
 }

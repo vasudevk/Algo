@@ -5,7 +5,7 @@ public class LongestPalindrome {
     public static void main(String... as) {
         LongestPalindrome longestPalindrome = new LongestPalindrome();
         System.out.println(longestPalindrome.longestPalindrome("asasssaamittimas1s"));
-        System.out.println(findLongestPalindromeInString("xxxxcasdfaafdsaxxxx"));
+        System.out.println(findLongestPalindromeInString("asasssaamittimas1s"));
     }
 
     static String findLongestPalindromeInString(String str) {
@@ -42,7 +42,7 @@ public class LongestPalindrome {
         return inputString.substring(left + 1, right);
     }
 
-    public String longestPalindrome(String s) {
+    private String longestPalindrome(String s) {
         if (s == null || s.length() <= 1)
             return s;
 

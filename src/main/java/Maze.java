@@ -37,7 +37,7 @@ public class Maze
     {
         int sol[][] = new int[maze.length][maze[0].length];
 
-        if (solveMazeUtil(maze, 0, 0, sol) == false)
+        if (!solveMazeUtil(maze, 0, 0, sol))
         {
             System.out.print("Solution doesn't exist");
             return false;
@@ -95,7 +95,8 @@ public class Maze
                {{1, 0, 1, 1,1},
                 {1, 1, 1, 0,1},
                 {0, 0, 0, 1,1},
-                {1, 1, 1, 1,1}
+                {1, 1, 1, 1,1},
+                       {1, 1, 1, 1,1}
         };
         rat.solveMaze(maze);
     }

@@ -16,7 +16,6 @@ public class SmallestInArray {
 
         first = second = Integer.MAX_VALUE;
         for (int anArr : arr) {
-
             if (anArr < first) {
                 second = first;
                 first = anArr;

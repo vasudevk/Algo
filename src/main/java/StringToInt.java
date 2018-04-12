@@ -46,7 +46,6 @@ public class StringToInt {
     private static int strToInt(String str) {
         int i = 0;
         int num = 0;
-        boolean negative=false;
         while (i < str.length()) {
                 num *= 10;
                 num += str.charAt(i++) - '0'; //Minus the ASCII code of '0' to get the value of the charAt(i++).

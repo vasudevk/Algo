@@ -5,16 +5,17 @@ import java.util.List;
 public class Anagram {
 
     public static void main(String[] as){
-        String[] strs={"cat","dog","act","asd","odg"};
+        String[] strs={"cat","dog","act","asd","odg","dsa"};
         Anagram anagram=new Anagram();
         System.out.printf(String.valueOf(anagram.groupAnagrams(strs)));
     }
 
-    public List<List<String>> groupAnagrams(String[] strs) {
-        List<List<String>> result = new ArrayList<List<String>>();
-
+    private List<List<String>> groupAnagrams(String[] strs) {
+        List<List<String>> result = new ArrayList<>();
         HashMap<String, List<String>> map = new HashMap<>();
+
         for(String str: strs){
+            str=str.toLowerCase();
             char[] arr = new char[26];
             for(int i=0; i<str.length(); i++){
                 arr[str.charAt(i) - 'a'] += 1;
@@ -29,9 +30,7 @@ public class Anagram {
                 map.put(ns, al);
             }
         }
-
         result.addAll(map.values());
-
         return result;
     }
 }

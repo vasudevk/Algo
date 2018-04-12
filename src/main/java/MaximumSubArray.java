@@ -7,7 +7,7 @@ import static java.lang.Math.max;
 public class MaximumSubArray {
 
     public static void main(String[] args) {
-        int a[] = {1, 10, 3, 40, 18};
+        int a[] = {1, 10, 3, -40, 18};
         System.out.println(solveUsingDp(a, a.length));
         System.out.println(maxSum(a, a.length));
         System.out.println(minSum(a, a.length));

@@ -1,17 +1,18 @@
-
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 import java.util.stream.Collectors;
 
 public class Solution {
 
     public static void main(String[] as) {
 
-        Solution solution = new Solution();
-        System.out.println(solution.subStringsLessKDist("awaglk",4));
+        System.out.println(subStringsLessKDist("awaglkadd",4));
     }
 
     private static List<String> subStringsLessKDist(String inputString, int num) {
-        List<String> listOfStrings = new ArrayList<String>();
+        List<String> listOfStrings = new ArrayList<>();
         for (int i = 0; i <= inputString.length() - num; i++) {
             String substring = inputString.substring(i, i + num);
             if (countChar(substring))
