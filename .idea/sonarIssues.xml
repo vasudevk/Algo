@@ -2473,6 +2473,11 @@
             <set />
           </value>
         </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev/framework/src/main/java/com/tmo/eus/framework/cache/redis/RedisUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev/framework/src/main/java/com/tmo/eus/framework/common/FrameworkConstants.java">
           <value>
             <set />
@@ -2554,6 +2559,11 @@
           </value>
         </entry>
         <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev/product-v3/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/AMit/Intellij_customer_dev/tmo-microservices_dev/product-v3/product-v3.iml">
           <value>
             <set />
           </value>
@@ -5224,6 +5234,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/java/RotateArray.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/RotateString.java">
           <value>
             <set />
           </value>
