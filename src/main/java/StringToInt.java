@@ -13,7 +13,7 @@ public class StringToInt {
         strToDouble(doub);
         System.out.println(stringToInt("19"));*/
 
-        System.out.println(strToInt("2"));
+        System.out.println(strToInt("21")*2);
 
     }
 

@@ -32,17 +32,17 @@ public class ArrayUnionAndIntersection {
     private static void unionOfStrings(String s, String s1) {
         char[] chars = s.toCharArray();
         char[] chars1 = s1.toCharArray();
-        char[] chars2 = new char['z' + 1];
-        char[] union = new char['z' + 1];
+        char[] chars2 = new char[26];
+        char[] union = new char[26];
         for (char c : chars) {
-            chars2[c]++;
+            chars2[c-'a']++;
         }
         for (char c : chars1) {
-            chars2[c]++;
+            chars2[c-'a']++;
         }
-        for (int i = 0; i < 'z'; i++) {
+        for (int i = 0; i < 26; i++) {
             if (chars2[i] > 0)
-                union[i] = (char)i;
+                union[i] = (char)(i+'a');
         }
         System.out.print("union :");
         System.out.println(union);

@@ -1,26 +1,24 @@
-import static java.util.Arrays.binarySearch;
-
 /**
  * Created by amit.k.mannur on 2/27/2018.
  */
 public class BinarySearch {
 
-    public static void main(String p[]){
+    public static void main(String p[]) {
 
-        int[] a={1,2,3,4,5,6,7,8,19,20};
-        System.out.println( binnarySearch(a,0,a.length-1,111));
+        int[] a = {1, 2, 3, 4, 5, 6, 7, 8, 19, 20};
+        System.out.println(binnarySearch(a, 0, a.length - 1, 111));
     }
 
-    static int binnarySearch(int[] a,int low,int high,int key){
+    static int binnarySearch(int[] a, int low, int high, int key) {
 
-        while(low <= high) {
+        while (low <= high) {
             int mid = low + high >>> 1;
-            Comparable var7 = (Comparable)a[mid];
+            Comparable var7 = (Comparable) a[mid];
             int var8 = var7.compareTo(key);
-            if(var8 < 0) {
+            if (var8 < 0) {
                 low = mid + 1;
             } else {
-                if(var8 <= 0) {
+                if (var8 <= 0) {
                     return mid;
                 }
                 high = mid - 1;

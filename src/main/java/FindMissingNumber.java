@@ -4,8 +4,8 @@ import java.util.stream.IntStream;
 public class FindMissingNumber {
     public static void main(String... s) {
 
-        int[] series = {0};
-        int[] numbers = new int[series.length+1];
+        int[] series = {1,7};
+        int[] numbers = new int[series[series.length]+1];
         /*for (int u : series) {
             numbers[(char) u] = 1;
     }*/

@@ -9,6 +9,7 @@ public class AllPalindromes {
         for (int i = 0; i <= str.length() / 2; i++)
             if (str.charAt(i) != str.charAt(str.length() - 1 - i))
                 return false;
+        System.out.println(str);
         return true;
     }
 
@@ -17,6 +18,7 @@ public class AllPalindromes {
         String longestString=null;
         for(int i=0;i<=str.length();i++)
             for(int j=i;j<str.length();j++)
+                if(str.substring(i,j+1).length()>1)
                 if(checkPalindrome(str.substring(i,j+1))) {
                     if(str.substring(i, j + 1).length()>longestlength){
                         longestlength=str.substring(i, j + 1).length();

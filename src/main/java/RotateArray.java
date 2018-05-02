@@ -13,11 +13,12 @@ public class RotateArray {
         System.arraycopy(sarr,0,sarr,4,2);
 
         Arrays.stream(sarr).forEach(e-> System.out.println(e));*/
-        rotateArray(sarr, 9%sarr.length );
+        rotateArray(sarr, 9 % sarr.length);
         Integer[] arr = {1, 2, 3, 4, 5, 6};
         Collections.rotate(Arrays.asList(arr), 9);
         System.out.println(Arrays.deepToString(arr));
     }
+
     private static void rotateArray(int[] src, int shiftBy) {
         int pos = src.length - shiftBy;
         int[] res = new int[src.length];

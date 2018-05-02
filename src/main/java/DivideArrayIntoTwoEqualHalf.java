@@ -57,7 +57,7 @@ public class DivideArrayIntoTwoEqualHalf {
     // Driver program
     public static void main(String[] args) {
 
-        int arr[] = {1, 2, 3,1, 4, 5, 5,1};
+        int arr[] = {2, 2, 1, 1, 15, 15};
         //Arrays.sort(arr);
         int n = arr.length;
 
