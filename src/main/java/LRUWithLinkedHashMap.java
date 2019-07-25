@@ -1,3 +1,5 @@
+import java.text.ParseException;
+import java.time.LocalDateTime;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
@@ -7,13 +9,20 @@ import java.util.Map;
 
 public class LRUWithLinkedHashMap {
     int capacity = 3;
+    private int finalize=0;
+
     Map<String, String> map = new LinkedHashMap<>();
 
     LRUWithLinkedHashMap(Map<String, String> map) {
         this.map = map;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws ParseException {
+        int a=Integer.MAX_VALUE;
+        int b=Integer.MAX_VALUE;
+
+        LocalDateTime now = LocalDateTime.now();
+        System.out.println(now.toLocalTime());
         Map<String, String> map = new LinkedHashMap<>(3,0.9f,true);
         LRUWithLinkedHashMap lruWithLinkedHashMap = new LRUWithLinkedHashMap(map);
         lruWithLinkedHashMap.put("k1", "v1");

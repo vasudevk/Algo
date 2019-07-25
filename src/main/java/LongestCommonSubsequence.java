@@ -36,8 +36,8 @@ public class LongestCommonSubsequence
     public static void main(String[] args)
     {
         LongestCommonSubsequence lcs = new LongestCommonSubsequence();
-        String s1 = "ManRetail";
-        String s2 = "Manager Retail";
+        String s1 = "amitmannur";
+        String s2 = "sindhu";
 
         char[] X=s1.toCharArray();
         char[] Y=s2.toCharArray();

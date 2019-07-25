@@ -74,7 +74,7 @@ public class CoinChanging {
             System.out.print("\n");
         }
         for (int i = pos; i < coins.length; i++) {
-            if (total >= coins[i]) {
+            if (coins[i] <= total) {
                 result.add(coins[i]);
                 printActualSolution(result, total - coins[i], coins, i);
                 result.remove(result.size()-1);
