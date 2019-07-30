@@ -1,0 +1,9 @@
+##Algorithms
+
+For a list with n elements, the complexity of binary search increases by O(log<sub>2</sub>n) whereas for simple search it is O(n).  
+`O(log n)` - Binary search  
+`O(n)` - Simple search  
+`O(n * log n)` - Quicksort  
+`O(n2)` - Selection sort  
+`O(n!)` - Traveling salesperson  
+
